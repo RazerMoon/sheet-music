@@ -22,8 +22,8 @@
       d2~ d8 \ottava #+1 a'16 c16 d16 f16 (d16) c16
       d4~ d8 g8~ g8 f8~ f8 e8~
       e8 c8~ c8 d8~ d8 a16 c16 d16 f16 (d16) c16
-      d4~ d8 \ottava #0 a8~ a8 g8~ g8 e8~
-      e8 c8~ c8 d8~ d8 r8 r4
+      d4~ d8 a'8~ a8 g8~ g8 e8~
+      e8 c8~ c8 d8~ d8 a16 c16 d16 f16 (d16) c16
     }
 
     \new Staff \with {
