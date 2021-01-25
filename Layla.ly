@@ -13,7 +13,7 @@
     \relative a' {
       \key f \major
       \time 4/4 
-      \tempo "with energy" 4 = 116
+      \tempo 4 = 116
       
       r2 r8 a16 c16 d16 f16 (d16) c16
       d1~
@@ -33,8 +33,7 @@
     \relative a, {
       \clef bass
       \key f \major
-      \time 4/4 
-      \tempo "with energy" 4 = 116
+      \time 4/4
       
       r2 r8 a16 c16 d16 f16 (d16) c16
       d8 d8 c8 bes4 a8 g8 c8~
@@ -48,8 +47,6 @@
     }
   >>
 
-  \layout {
-    \override Score.MetronomeMark.padding = #2
-  }
+  \layout {}
   \midi {}
 }
