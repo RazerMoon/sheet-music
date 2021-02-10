@@ -9,6 +9,7 @@
     \new Staff \with {
     instrumentName = #"Guitar"
     shortInstrumentName = #"Gtr."
+    midiInstrument = "acoustic guitar (nylon)"
     }
     \relative a' {
       \key f \major
@@ -29,6 +30,7 @@
     \new Staff \with {
       instrumentName = #"Bass"
       shortInstrumentName = #"Bass."
+      midiInstrument = "electric bass (finger)"
     }
     \relative a, {
       \clef bass
@@ -44,6 +46,23 @@
       c8 a8 g8 d'4 a16 c16 d16 f16 d16 c16
       d8 d8 c8 bes4 a8 g8 c8~
       c8 a8 g8 d'4 a16 c16 d16 f16 d16 c16
+    }
+
+    \new DrumStaff \with {
+      instrumentName = #"Drums"
+      shortInstrumentName = #"Drum."
+    } {
+      \drummode {
+        r1
+        r1
+        r1
+        r1
+        r2 r4 tomml16 r8 tomml16
+        <tamb bd hhc cymc>16 tamb <tamb hhc> tamb <sna hhc> tamb <tamb hhc> tamb <tamb bd hhc> tamb <tamb hhc> tamb <sna hhc> tamb <tamb hhc> tamb
+        <tamb bd hhc> tamb <tamb hhc> tamb <sna hhc> tamb <tamb hhc> tamb <tamb bd hhc> tamb <tamb bd hhc> tamb <sna hhc> <tamb tomfh> <tamb tomml hhc> tamb
+        <tamb bd hhc> tamb <tamb hhc> tamb <sna hhc> tamb <tamb hhc> tamb <tamb bd hhc> tamb <tamb bd hhc> tamb <sna hhc> tamb <tamb hhc> tamb
+        <tamb bd hhc> tamb <tamb hhc> tamb <sna hhc> tamb <tamb hhc> tamb <tamb bd hhc> tamb <tamb bd hhc> tamb <sna hhc> <tamb tomfh> <tamb tomml hhc> tamb
+      }
     }
   >>
 
